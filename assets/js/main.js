@@ -1,5 +1,5 @@
 //https://www.codesdope.com/blog/article/12-creative-css-and-javascript-text-typing-animati/
-//type writing animation effect
+//type writing animation effect 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
