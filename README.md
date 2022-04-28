@@ -1,7 +1,7 @@
 # pui-a8
 pui-a8
 
-- video: https://drive.google.com/drive/folders/1LxQ3uUh7wzSwG62O-rMT1RCwk4FApK5J?usp=sharing
+- video: https://drive.google.com/file/d/1mw77FiFR_1yVVaSB9wYGcMm247K4uMs9/view?usp=sharing
 - figma: https://www.figma.com/file/2hiIN6V3qf4Erp5dTtqumg/PUI-(gmoon)-team-library?node-id=411%3A2
 - hosted link: https://gmoon1117.github.io/pui-a8/
 - github repo: https://github.com/gmoon1117/pui-a8
