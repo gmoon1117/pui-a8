@@ -1,10 +1,10 @@
 # pui-a8
 pui-a8
 
-video: https://drive.google.com/drive/folders/1LxQ3uUh7wzSwG62O-rMT1RCwk4FApK5J?usp=sharing
-figma: https://www.figma.com/file/2hiIN6V3qf4Erp5dTtqumg/PUI-(gmoon)-team-library?node-id=411%3A2
-hosted link: https://gmoon1117.github.io/pui-a8/
-github repo: https://github.com/gmoon1117/pui-a8
+- video: https://drive.google.com/drive/folders/1LxQ3uUh7wzSwG62O-rMT1RCwk4FApK5J?usp=sharing
+- figma: https://www.figma.com/file/2hiIN6V3qf4Erp5dTtqumg/PUI-(gmoon)-team-library?node-id=411%3A2
+- hosted link: https://gmoon1117.github.io/pui-a8/
+- github repo: https://github.com/gmoon1117/pui-a8
 
 Screen Resolution: 2560 × 1600
 
@@ -23,7 +23,7 @@ Welcome to my Web Portfolio! This web portfolio is a professional yet fun place 
 9. See the images of me bouncing as an animation.
 
 ## External Libraries
--Bootstrap: To provide a clean and organized grid on the website. Also simplifies design by using classes and features that make the website more engaging.
+- Bootstrap: To provide a clean and organized grid on the website. Also simplifies design by using classes and features that make the website more engaging.
 - AOS (Animation on Scroll) Library: To make the different content sections appear as the user scrolls down. Sections fade up and make the website more interactive.
 -Webkit Animation and Keyframes: To make the images more engaging and moving. Images of me can be seen bouncing and makes the website more lively.
 - JavaScript Library: To make the website more interactive by giving the type writing effect on the home page. Can loop through different positions/people I am and shows another layer of my activities.
