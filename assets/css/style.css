@@ -21,7 +21,7 @@
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #F6BFC7;
+  background: #45505b;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -117,7 +117,7 @@ ball {
 
 
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -158,32 +158,85 @@ section {
   margin-bottom: 0;
 }
 
-#experience, #projects, #aboutme, #resume {
-  background: #F6BFC7;
-  background: linear-gradient(to right bottom, #F6BFC7, #A3ABCB);
-}
-
 #footer{
-  background-color: #383838;
-  color: white;
+  background-color: #A3ABCB;
+  color: #45505b;
 }
 
 #pe1, #pe3{
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 60px 10px 70px 10px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #9199B6;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+#pe1{
+  border-radius: 30px 0px 0px 30px;
+}
+
+#pe3{
+  border-radius: 0px 30px 30px 0px;
 }
 
 #pe2 {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 60px 10px 70px 10px;
   transition: all ease-in-out 0.3s;
   background: #A3ABCB;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
+#projects{
+  color: #45505b;
+}
+
 #projects a{
-  color: black;
+  color: #45505b;
+  text-decoration: none;
+}
+
+/* The Modal (background)
+https://www.w3schools.com/howto/howto_css_modals.asp */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close, .close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus, .close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#zc{
+  width: 50%;
+  margin: auto;
 }
