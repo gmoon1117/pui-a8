@@ -33,7 +33,7 @@
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #F9DCCE;
   color: #fff;
   text-decoration: none;
 }
@@ -59,8 +59,6 @@
 
 /*https://www.geeksforgeeks.org/how-to-make-smooth-bounce-animation-using-css/*/
 .ball {
-  width: 20%;
-  border-radius: 50%;
   animation: bounce 1.75s;
   animation-direction: alternate;
   animation-timing-function: cubic-bezier(.5, 0.5, .5, .5);
@@ -72,7 +70,7 @@
     transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate3d(0, 30px, 0);
+    transform: translate3d(0, 20px, 0);
   }
 }
 
@@ -239,4 +237,34 @@ https://www.w3schools.com/howto/howto_css_modals.asp */
 #zc{
   width: 50%;
   margin: auto;
+}
+
+/*https://codingyaar.com/bootstrap-navbar-hover-background-color/*/
+
+#header .navbar .navbar-nav .nav-link:hover {
+  background-color: #A3ABCB;
+  color: white;
+  border-radius: 25px;
+}
+
+.navbar .navbar-nav .nav-link {
+
+  transition: all .60s;
+  border-radius: 10px;
+}
+
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
 }

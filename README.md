@@ -9,16 +9,29 @@ github repo: https://github.com/gmoon1117/pui-a8
 Screen Resolution: 2560 × 1600
 
 ## Description
-Welcome to my Web Portfolio as the course final project. This web portfolio is a professional yet fun place to house my work from college. I display my personality and identity through a defined color palette and clean interface.
+Welcome to my Web Portfolio! This web portfolio is a professional yet fun place to house my experience and work during college. I display my personality and identity through a defined color palette and clean interface. I also incorporate interactive and accessibility elements to improve the user experience!
 
 ## How to Interact with My Website
-Use a bulleted list to describe how a user would interact with your website. For each item in your list, say i. the interaction type you implemented ii. how I should reproduce it (i.e. click on X on page Y, or scroll on page X, etc.)
+1. Hover over the navigation bar to see it transition a new background color and font color.
+2. See the cool typewriting carousel effect on the home page.
+3. Scroll down to see sections fade up, using AOS (animate on scroll library).
+4. Click on the "see more" button in the projects section to see a modal pop-up and give more information on the project.
+5. Click one of the buttons to be taken to external resources.
+6. Click on "Open Resume" in the resume section to be taken to my resume in a new tab.  
+7. Hover over the social media buttons in the footer to change color.
+8. Click on the social media buttons to be taken to the respective link in a new tab.
+9. See the images of me bouncing as an animation.
 
 ## External Libraries
-Describe what external tool(s) you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts. i. Name of tool ii. Why you chose to use it? (2-4 sentences max) iii. How you used it? (2-4 sentences max) iv. What it adds to your website? (2-4 sentences max)
+-Bootstrap: To provide a clean and organized grid on the website. Also simplifies design by using classes and features that make the website more engaging.
+- AOS (Animation on Scroll) Library: To make the different content sections appear as the user scrolls down. Sections fade up and make the website more interactive.
+-Webkit Animation and Keyframes: To make the images more engaging and moving. Images of me can be seen bouncing and makes the website more lively.
+- JavaScript Library: To make the website more interactive by giving the type writing effect on the home page. Can loop through different positions/people I am and shows another layer of my activities.
+- Boxicons: To easily access high quality icons that also change color when hovered over.
+
 
 ## Changes From HW7
-I included more "call to action" by adding a View My Projects button on the Home page that would take the user to my Projects page and by including a link to a PDF version of my resume in the About page in case an employer would want to have access to that.
+My HW7 Design was too casual and was made to be more friendly and creative. However, I gear towards more of a PM career path rather than UI/UX or Product Design. Thus, I wanted my website to be more professional and simple. I then iterated my design on Figma and also wanted to emphasize my experience in the industry. I still retained interactive and engaging content to improve the user experience!
 
 ## Major Challenges
-What challenges did you experience in implementing your website? (2-4 sentences max)
+While the external libraries such as Bootstrap was very hard to grasp at first, these resources helped me significantly improve my website. Sometimes, it was very difficult to understand why some colors or features were not working. For example, the layout of my content would be off and the colors of some font would not show. But patience and understanding helped me overcome the obstacles of the learning curve!
