@@ -14,19 +14,14 @@
   padding: 0;
   margin: 0 0 15px 0;
 }
-#footer p {
-  font-size: 15;
-  font-style: italic;
-  padding: 0;
-  margin: 0 0 40px 0;
-}
+
 #footer .social-links {
   margin: 0 0 40px 0;
 }
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #F6BFC7;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -47,4 +42,148 @@
 }
 #footer .credits {
   font-size: 13px;
+}
+
+#header{
+  float: right;
+  padding-right: 1em;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/skyline2.png") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*https://www.geeksforgeeks.org/how-to-make-smooth-bounce-animation-using-css/*/
+.ball {
+  width: 20%;
+  border-radius: 50%;
+  animation: bounce 1.75s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.5, .5, .5);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 30px, 0);
+  }
+}
+
+ball {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 1.75s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(
+          .5, 0.5, .5, .5);
+  -webkit-animation-iteration-count: infinite;
+      }
+
+  @-webkit-keyframes bounce {
+            from {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+            to {
+                -webkit-transform: translate3d(0, 200px, 0);
+                transform: translate3d(0, 200px, 0);
+            }
+}
+
+
+#main h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: black;
+}
+#main p {
+  color: black;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+#main p span {
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #A3ABCB;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.section-title p {
+  margin-bottom: 0;
+}
+
+#experience, #projects, #aboutme, #resume {
+  background: #F6BFC7;
+  background: linear-gradient(to right bottom, #F6BFC7, #A3ABCB);
+}
+
+#footer{
+  background-color: #383838;
+  color: white;
+}
+
+#pe1, #pe3{
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+#pe2 {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #A3ABCB;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+#projects a{
+  color: black;
 }

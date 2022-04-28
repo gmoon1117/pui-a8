@@ -25,15 +25,21 @@
 
     <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
+
+<script>
+     $(function() {
+          AOS.init();
+     });
+</script>
 
 <body>
   <!-- ======= Navbar ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -43,7 +49,7 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#aboutme">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#resume">Resume</a>
@@ -56,13 +62,17 @@
 
   <!-- ======= Main Section ======= -->
   <section id="main" class="d-flex flex-column justify-content-center">
-    <div class="container">
+    <div class="container" id="name_side" data-aos="zoom-in" data-aos-delay="100">
       <h1>Gloria Moon</h1>
-      <p>Looking to create a positive impact in the world :)</span></p>
+      <p>I'm <span class="txt-rotate" data-rotate='[ "a Student at Carnegie Mellon University.", "an apsiring Product Manager.", "a buggy driver.", "a StuCo Course Instructor.", "the Co-President of UXA.", "a Women in IS Lead Mentor.", "an IS Ambassador.", "Glue!"]'></span></p>
+    </div>
+    <!--<div class="container" id="ice_cream_side">
+      <img src="assets/img/ice-cream.png" class="ball"/>
+    </div>-->
   </section><!-- End Hero -->
 
   <!-- ======= Experience Section ======= -->
-  <section id="experience" class="about">
+  <section data-scroll id="experience" class="about">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -74,7 +84,7 @@
         </div>
         <div class="col-lg-8">
           <div class="row">
-            <h3>Program Manager Intern at Amazon</h3>
+            <h3>Incoming Program Manager Intern at Amazon</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -103,7 +113,7 @@
   </section><!-- End Experience Section -->
 
   <!-- ======= Projects Section ======= -->
-  <section id="projects" class="projects">
+  <section data-scroll id="projects" class="projects">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -112,74 +122,81 @@
       </div>
 
       <div class="row">
-
-        <div class="col-lg-4 col-md-6">
-            <h4><a href="index.html">DIY Giftbox Service</a></h4>
+        <div class="col-lg-4 col-md-6" id="pe1">
+            <h4><a href="#projects">DIY Giftbox Service</a></h4>
             <p>Working with a local pittsburgh grocery store to propose a new innovative service.</p>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-
-            <h4><a href="index.html">Zoo Escape</a></h4>
+        <div class="col-lg-4 col-md-6" id="pe2">
+            <h4><a href="#projects">Zoo Escape</a></h4>
             <p>Developing a board game aimed to teach people about various conflict management styles.</p>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-            <h4><a href="index.html">ZillowConnected</a></h4>
+        <div class="col-lg-4 col-md-6" id="pe3">
+            <h4><a href="#projects">ZillowConnected</a></h4>
             <p>Helping young adult homebuyers in the long, exhausting homebuying process.</p>
         </div>
 
       </div>
 
     </div>
-  </section><!-- End Services Section -->
+  </section><!-- End Projects Section -->
 
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-    <div class="container" data-aos="fade-up">
+  <!-- ======= About Me Section ======= -->
+  <section data-scroll id="aboutme" class="aboutme" data-aos="fade-up">
+    <div class="container" >
 
       <div class="section-title">
-        <h2>About</h2>
+        <h2>About Me</h2>
       </div>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
           <div class="row">
             <h3>Hello!</h3>
             <p>
-              I'm Gloria, a junior studying Information Systems and Human-Computer Interaction at Carnegie Mellon University!
+              Hello, my name is Gloria Moon! I am a junior majoring in Information Systems and Human-Computer Interaction with a minor in IDeATe Media Design at Carnegie Mellon University.
+              With a background in both tech and design, I am interested how we can create more human-centered products.
+            </p>
+            <p>
+              In my free time, you can see me loving crafts, such as 3D printing, laser cutting, embroidery, and calligraphy.
+              I also love playing all kinds of games whether it's a strategic board game like 7 Wonders or exciting video game like Valorant.
+              Lastly, I enjoy building new PCs and custom keyboards!
             </p>
           </div>
         </div>
+        <div class="col-lg-1"></div>
         <div class="col-lg-4">
-          <img src="assets/img/profile-img.png" class="img-fluid" alt="">
+          <img src="assets/img/buggy.png" class="img-fluid" alt="">
         </div>
       </div>
 
     </div>
-  </section><!-- End About Section -->
+  </section><!-- End About Me Section -->
 
   <!-- ======= Resume Section ======= -->
-  <section id="resume" class="about">
-    <div class="container" data-aos="fade-up">
+  <section data-scroll id="resume" class="resume" data-aos="fade-up">
+    <div class="container">
 
       <div class="section-title">
         <h2>Resume</h2>
+        <a href="assets/resume.pdf" target="_blank">Click Here to See More Work!</a>
       </div>
 
     </div>
-  </section><!-- End About Section -->
+  </section><!-- End Resume Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
       <h3>Gloria Moon</h3>
-      <p>Connect with me!</p>
+      <p>Let's connect.</p>
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="mailto:gmoon@andrew.cmu.edu" class="email" target="_blank"><i class='bx bx-envelope'></i></i></a>
+        <a href="https://www.linkedin.com/in/gloria-moon-010761/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/gmoon1117" class="github" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/gloria.moon.17/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/gloriaa.moon/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
       </div>
       <div class="credits">
         Designed by Gloria Moon
